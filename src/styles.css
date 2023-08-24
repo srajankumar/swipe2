@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0px;
+}
+
+.intro-text {
+  text-transform: uppercase;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 300;
+}
+
+.text-big {
+  font-size: 5rem;
+  font-weight: 800 !important;
+}
+
+.blur-text {
+  text-transform: uppercace;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  color: white;
+  margin: 5;
+  letter-spacing: 2.5px;
+  line-height: 50px;
+}
+
+.blur-plx {
+  width: 100vw;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.background-image {
+  background: url("https://images.pexels.com/photos/1519192/pexels-photo-1519192.jpeg?cs=srgb&dl=black-hyundai-suv-1519192.jpg&fm=jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
